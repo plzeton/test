@@ -1,0 +1,9 @@
+App(
+    appid="usb_keyboard_app",
+    name="USB Keyboard App",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="usb_keyboard_app_main",
+    requires=["usb"],
+    stack_size=1 * 1024,
+    fap_category="Tools",
+)
